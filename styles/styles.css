@@ -14,7 +14,7 @@
     border-color: darkgrey;
     border-style: solid;
     border-width: 0.5px;
-    /*background-image: url("/images/mountain.png"); */
+    background-image: url("/images/mountain.png"); 
     background-repeat: no-repeat;
     background-position: center-bottom;
     background-attachment:scroll;
@@ -26,7 +26,23 @@
     margin-right: 20px;
 }
 
+.col-md-8.fw-lighter.fst-italic.technologies{
+    padding-top: 10px;
+}
+
 .col-md-8.fw-lighter.fst-italic.education{
+    padding-top: 10px;
+}
+
+.col-md-8.fw-lighter.fst-italic.languages{
+    padding-top: 10px;
+}
+
+.col-md-8.fw-lighter.fst-italic.lft{
+    padding-top: 10px;
+}
+
+.col-md-8.fw-lighter.fst-italic.testing{
     padding-top: 10px;
 }
 
