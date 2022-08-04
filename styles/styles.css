@@ -40,22 +40,48 @@
 
 }
 
-.p-3.mb-4.rounded-3{
+.p-3.mb-4.rounded-3.intro{
     border-color: darkgrey;
     border-style: solid;
     border-width: 0.5px;
     background-image: url("/images/mountain.png"); 
     background-repeat: no-repeat;
-    background-position: center-bottom;
-    background-attachment:scroll;
+    background-position: 90% 15%;
+    background-attachment: fixed;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
 .p-3.mb-4.rounded-3.resume{
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 0.5px;
     background-image: url("/images/house.png");
-    background-position: 90% 15%;
+    background-position: 80% 15%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+.p-3.mb-4.rounded-3.projects{
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 0.5px;
+    background-image: url("/images/mountain2.png"); 
+    background-repeat: no-repeat;
+    background-position: 80% 15%;
+    background-attachment: fixed;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.p-3.mb-4.rounded-3.contact{
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 0.5px;
+    background-image: url("/images/bird.png");
+    background-repeat: no-repeat;
+    background-position: 100% 45%;
+}
+
 
 #projects{
     background-color: #fcfbf7;
@@ -115,4 +141,19 @@ div.carousel-caption.d-md-block{
 
 .project-description {
     color: black;
+}
+
+div.carousel-item:nth-child(1) > div:nth-child(2){
+    border-radius:10px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: lightgrey;
+    font-size: smaller;
+}
+div.carousel-item:nth-child(2) > div:nth-child(2){
+    border-radius:10px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: lightgrey;
+    font-size: smaller;
 }

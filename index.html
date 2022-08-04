@@ -19,16 +19,18 @@
     <div class="container">
       <nav class="navbar navbar-expand-lg">
         <div class="container-md">
-          <a class="navbar-brand" href="#" >
-            <img src="images/bird.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          <a class="navbar-brand" href="#">
+            <img src="images/bird.png" alt="picture of a baby duck" href="#" width="30" height="24"
+              class="d-inline-block align-text-top">
           </a>
           <a class="nav-link" href="#about-me">about me</a>
           <a class="nav-link" href="#resume">resume</a>
           <a class="nav-link" href="#projects">projects</a>
+          <a class="nav-link" href="#contact">contact</a>
         </div>
       </nav>
 
-      <div class="p-3 mb-4 rounded-3">
+      <div class="p-3 mb-4 rounded-3 intro">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-light intro">&lth1&gt;hello, whirled!&lt/p&gt;</h1>
           <p class="col-md-8 fw-lighter fst-italic">(disclaimer: i'm very good at html)</p>
@@ -256,8 +258,8 @@
         </div>
       </div>
 
-      <div class="p-3 mb-4 rounded-3" id="projects">
-        <div class=" container-fluid py-5">
+      <div class="p-3 mb-4 rounded-3 projects" id="projects">
+        <div class=" container-fluid py-5 projects">
           <h1 class="display-5 fw-light">projects</h1>
           <p class="col-8 fw-lighter fst-italic">these are projects that i've made contributions to</p>
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -269,17 +271,34 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/bird.png" class="d-block w-100" alt="...">
+                <img src="images/tadpoles.png" class="d-block w-100" alt="image of a cartoon tadpole">
                 <div class="carousel-caption d-md-block">
-                  <h5 class="project-title">First slide label</h5>
-                  <p class="project-description">Some representative placeholder content for the first slide.</p>
+                  <h3 class="project-title fw-light">Music Explorer</h5>
+                    <p class="project-description fw-lighter">
+                      Music Explorer is an application that allows users to procedurally explore related
+                      artists of a searched-upon artist. An app built with React, the D3 visuals library, and
+                      a few API's to handle artist recommendations and rendering of song previews, this project
+                      was the term project for a previous front-end web development course.
+                    </p>
+                    <a href="https://github.com/shoreparty/music-explorer-app" class="btn btn-outline-secondary"><i
+                        class="fa fa-github"></i>
+                      |
+                      see the repo!</a>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="images/csharp.png" class="d-block w-100" alt="...">
+                <img src="images/hippo.png" class="d-block w-100" alt="image of a cartoon hippo">
                 <div class="carousel-caption d-md-block">
-                  <h5 class="project-title">Second slide label</h5>
-                  <p class="project-description">Some representative placeholder content for the second slide.</p>
+                  <h3 class="project-title fw-light">Terminal</h5>
+                    <p class="project-description fw-lighter">The Terminal application was developed in tandem with
+                      my group as the term project for the agile course I took at PSU. Written in Python and using
+                      Pysftp, this application simulates a terminal for users to perform simple commands such as getting
+                      files from a server and creating a history of all commands performed during a terminal session.
+                    </p>
+                    <a href="https://github.com/shoreparty/FTP-G1/tree/main/src" class="btn btn-outline-secondary"><i
+                        class="fa fa-github"></i>
+                      |
+                      see the repo!</a>
                 </div>
               </div>
             </div>
@@ -296,7 +315,25 @@
           </div>
         </div>
       </div>
-    </div>
+      <div class="p-3 mb-4 rounded-3 contact" id="contact">
+        <div class=" container-fluid py-5 contact">
+          <h1 class="display-5 fw-light">contact</h1>
+          <p class="col-8 fw-lighter fst-italic">get in touch if you want to!</p>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">i will share this information with companies for money!</div>
+            </div>
+            <div class="mb-3">
+              <label for="compliment" class="form-label">compliment:</label>
+              <textarea class="form-control" rows="5" id="compliment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">submit!</button>
+          </form>
+        </div>
+      </div>
   </main>
 </body>
+
 </html>
