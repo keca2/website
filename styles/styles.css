@@ -10,6 +10,21 @@
     border-style: solid;
 }
 
+.card-header.display-5{
+    background-color: white;
+}
+
+.card-img-top{
+    border-radius: 8px;
+}
+
+.col-sm-5.col-md-4.pictures{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
 .p-3.mb-4.rounded-3{
     border-color: darkgrey;
     border-style: solid;
@@ -46,3 +61,10 @@
     padding-top: 10px;
 }
 
+#panelsStayOpen-collapseOne{
+    background-image: url("/images/mountain.png"); 
+}
+
+#panelsStayOpen-collapseTwo{
+    background-image: url("/images/mountain.png"); 
+}
