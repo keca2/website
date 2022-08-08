@@ -157,3 +157,18 @@ div.carousel-item:nth-child(2) > div:nth-child(2){
     border-color: lightgrey;
     font-size: smaller;
 }
+
+@media (max-width: 414px) {
+    .navbar-brand {
+      display: none;
+    }
+    .nav-link {
+        font-size: smaller;
+    }
+    .btn-outline-primary,
+    .btn-outline-secondary,
+    .btn-outline-success {
+        font-size: smaller;
+    }
+    .
+  }
